@@ -2,7 +2,7 @@ package agh.edu.starter.library;
 
 public class Mp4Codec implements Codec {
     @Override
-    public String getType() {
+    public String getExtension() {
         return "mp4";
     }
 }

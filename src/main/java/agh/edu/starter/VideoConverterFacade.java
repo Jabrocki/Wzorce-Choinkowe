@@ -3,7 +3,7 @@ import agh.edu.starter.library.VideoFile;
 
 
 public class VideoConverterFacade {
-    public VideoFile encode(String filename, String format) {
+    public VideoFile encode(String filename, String initFormat, String distFormat) {
         // TODO: zaimplementuj fasadę:
         // 1. Utwórz obiekt VideoFile
         // 2. Wybierz odpowiedni codec (Mp4Codec lub OggCodec) na podstawie parametru format
