@@ -18,7 +18,7 @@ public class VideoConverterFacade {
         }
 
         // 3. Odczyt pliku
-        VideoFile buffer = BitrateReader.read(file, destinationCodec);
+        VideoFile buffer = BitrateReader.read(file);
 
         // 4. Konwersja
         VideoFile intermediate = BitrateReader.convert(buffer, destinationCodec);

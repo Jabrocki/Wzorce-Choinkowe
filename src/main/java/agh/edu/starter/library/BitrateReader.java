@@ -2,9 +2,9 @@ package agh.edu.starter.library;
 
 public class BitrateReader {
 
-    public static VideoFile read(VideoFile file, Codec codec) {
+    public static VideoFile read(VideoFile file) {
         System.out.println(
-                "Reading file " + file.getFullName() + " using codec " + codec.getExtension()
+                "Reading file " + file.getFullName()
         );
         return file;
     }
