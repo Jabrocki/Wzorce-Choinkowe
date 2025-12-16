@@ -1,6 +1,5 @@
 package agh.edu.starter.library;
 
-// TODO: Zmiana formatu pliku
 public class VideoFile {
     private final String fileName;
     private final String fileExtension;
